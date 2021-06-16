@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import {NavBar} from './components/NavBar/NavBar'
 
 function App() {
+  const handleClick = () => alert ('muy bien!')
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Nonni - tejidos a mano para tu bebe
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hola!</h1>
+      <button onClick= {handleClick}>Haceme click!</button>
+      <NavBar/>
     </div>
   );
 }
-
 export default App;
