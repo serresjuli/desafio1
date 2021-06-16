@@ -1,3 +1,35 @@
-.App{
-  background-color: red;
+.menuPrincipal{
+  display: grid;
+  grid-template-areas: 
+  "titulo""listado";
+  grid-template-columns: 35% 65%;
+}
+.nav{
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+.navItem{
+  width: 150px;
+  background-color: #ac9288;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.navItem:hover{
+  width: 180px;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  color:#ac9288;
+  text-align: center;
+  
+}
+.descripcionH1{
+  font-size: 20px;
+  font-family:'Ubuntu', sans-serif ;
+  text-align: center;
 }
