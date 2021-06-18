@@ -1,8 +1,8 @@
 .menuPrincipal{
   display: grid;
   grid-template-areas: 
-  "titulo""listado";
-  grid-template-columns: 35% 65%;
+  "titulo""listado""carrito";
+  grid-template-columns: 30% 55% 15%;
 }
 .nav{
   list-style: none;
@@ -19,7 +19,13 @@
   font-family: 'Ubuntu', sans-serif;
 }
 .navItem:hover{
-  width: 180px;
+  background-color:#d4b6aa ;
+}
+.btnCarrito{
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #d4b6aa;
 }
 h1{
   font-family: 'Roboto', sans-serif;

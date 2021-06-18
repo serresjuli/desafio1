@@ -1,3 +1,4 @@
+import {CartWidget} from './CartWidget/CartWidget.js'
 export const NavBar = () => {
     return(
         <nav className= 'menuPrincipal'>
@@ -14,6 +15,7 @@ export const NavBar = () => {
 				    <li className="navItem">Contacto</li>
 			    </ul> 
 		    </section>
+			<CartWidget/>
 	    </nav>
     )
 }
