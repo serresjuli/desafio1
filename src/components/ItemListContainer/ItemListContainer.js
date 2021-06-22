@@ -1,5 +1,5 @@
-export const ItemListContainer =() =>{
+export const ItemListContainer =({greeting}) =>{
     return(
-    <p> PROXIMAMENTE..... conoce el stock completo de productos de Nonni</p>
+    <p>{greeting}</p>
     )
 }
