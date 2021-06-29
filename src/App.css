@@ -39,3 +39,30 @@ h1{
   font-family:'Ubuntu', sans-serif ;
   text-align: center;
 }
+.btnContadorMenos{
+  grid-area: menos;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #d4b6aa ;
+}
+.btnContadorMas{
+  grid-area: mas;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #d4b6aa ;
+}
+.numeroContador{
+  grid-area: contador;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.btnSumarCarrito{
+  grid-area: sumar;
+  width: 230px;
+  height: 30px;
+  background-color: #ac9288;
+  border-radius: 5px;
+}
+
