@@ -4,7 +4,6 @@ export const ItemCount = ({stock, initial, onAdd}) =>{
     
     const [contador, setContador] = useState(initial)
     const [sumaStock, setSumaStock] = useState(stock)
-    const [bloquearBtn, setBloquearBtn] = useState(false)
 
     const btnSuma = () => {
         if (sumaStock> 1 && contador<sumaStock){
@@ -20,6 +19,7 @@ export const ItemCount = ({stock, initial, onAdd}) =>{
             setContador (contador + 0)
         }
     }
+    
 
     return(
         <section className='AgregarCarrito'>
@@ -30,7 +30,7 @@ export const ItemCount = ({stock, initial, onAdd}) =>{
             </div>
             <br></br>
             <div className='btnAgregarCarrito'> 
-                <button className='btnSumarCarrito' onClick={onAdd} disabled={bloquearBtn}> Agregar al carrito </button>
+                <button className='btnSumarCarrito' onClick={onAdd} disabled={!sumaStock}> Agregar al carrito </button>
             </div>
         </section>
     )
