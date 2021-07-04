@@ -65,4 +65,31 @@ h1{
   background-color: #ac9288;
   border-radius: 5px;
 }
-
+.ConstructorProducto{
+  margin:25px;
+  width: 170px;
+  height: 275px;
+  border: 2px solid #857b7b;
+  border-radius: 3%;
+}
+.p__box{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #756565;
+}
+.title__box{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  line-height: 19px ;
+  text-align: center;
+  color: #7e6f6f;
+}
+.img{
+  border-radius: 3%;
+  height: auto;
+  max-width: 100%;
+}
+.Productos{
+  display: flex;
+  flex-direction: row;
+}
