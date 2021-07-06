@@ -13,6 +13,7 @@ export const ItemListContainer =() =>{
             title: 'CONJUNTO',
             price: 1950,
             pictureUrl: conjuntoImg,
+            detalle: 'Conjunto de saquito mas pantalon lana',
             cantidad: 5
         },
         {
@@ -20,6 +21,7 @@ export const ItemListContainer =() =>{
             title: 'CHALECO',
             price: 890,
             pictureUrl: chaleco,
+            detalle: 'Chaleco individual escote en V en lana',
             cantidad: 3
         },
         {
@@ -27,6 +29,7 @@ export const ItemListContainer =() =>{
             title: 'RANITA',
             price: 1050,
             pictureUrl: ranita,
+            detalle: 'Ranita con cordon regulable en lana',
             cantidad: 0
         }
     ]
