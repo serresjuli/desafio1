@@ -1,4 +1,4 @@
-import {ItemDetail} from '../ItemDetail/ItemDetail'
+import {ItemDetail} from '../../components/ItemDetail/ItemDetail'
 import {useEffect, useState} from 'react'
 import enterito from '../../Images/tejidos4.jpg'
 
@@ -10,7 +10,8 @@ export const ItemDetailContainer = () =>{
         price: 1350,
         pictureUrl: enterito,
         detalle: 'Enterito tiro regulable en lana',
-        cantidad: 3
+        cantidad: 3,
+        categoria: 'pantalones/ranitas'
     }
 
     const [item, setItem] = useState([])
